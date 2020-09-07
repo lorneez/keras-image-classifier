@@ -7,15 +7,15 @@
         Please choose an image from your computer to upload
     </div>
     <div class = "choose-file">
-    <input type="file" (change)="onFileSelected($event)">
+    <input type="file" accept="image/*" (change)="onFileSelected($event)">
     </div>
-    <div class = "Picture"></div>
+    <img class = "image" [src]="url" alt="uploaded-image">
     <div class = "Buttons">
-    <button>
+    <button (click)="onUpload()">
         Submit Image
     </button>
     </div>      
     <div class = "Response-container">
-        You have submitted an image of a: homosexual
+        You have submitted an image of a: cat
     </div>
 </div>
