@@ -11,5 +11,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  onFileSelected(event){
+    console.log(event);
+    }
 }
