@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8c2c0edc-646c-430f-ad23-82ef87416926" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/backend/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/backend/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/backend/uploads/IMG_8674.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/backend/uploads/lorne.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/src/app/components/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/src/app/components/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image-classifier-app/src/app/components/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/image-classifier-app/src/app/components/home/home.component.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1h9j8VurCN2UkmO5AK2bAMLCN6w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/image-classifier-app/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/image-classifier-app/backend" />
+      <recent name="$PROJECT_DIR$/image-classifier-app/backend/imageclassifier" />
+      <recent name="$PROJECT_DIR$/image-classifier-app/backend/imageclassifier/test_images" />
+      <recent name="$PROJECT_DIR$/image-classifier-app" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c2c0edc-646c-430f-ad23-82ef87416926" name="Default Changelist" comment="" />
+      <created>1599430042300</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599430042300</updated>
+      <workItem from="1599430043401" duration="10130000" />
+      <workItem from="1599451460759" duration="8527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="471" y="210" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599451556824">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state x="471" y="210" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.814@0.23.1440.814" timestamp="1599451556824" />
+  </component>
+</project>
