@@ -1,0 +1,38 @@
+.Container{
+    width: auto;
+    height: 20cm;
+    margin-top: -1cm;
+    background-color: rgb(176,214,256);
+}
+
+.title{
+    padding-top: 2cm;
+    text-align: center;
+    font-size: 1cm;
+}
+
+.login-container{
+    margin-top: 1cm;
+    margin-left: 300px;
+    border-radius: 10px;
+    margin-right: 300px;
+    align-content: center;
+    background-color:white;
+}
+
+.enter{
+    font-size: 20px;
+    padding-top: 1cm;
+    text-align: center;
+}
+
+.login-input{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.register{
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 1cm;
+}

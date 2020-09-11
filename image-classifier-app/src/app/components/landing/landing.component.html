@@ -1,1 +1,20 @@
-<p>landing works!</p>
+<div class="Container">
+    <div class = "title">Log In</div>
+    <div class = "login-container">
+        <div class = "enter">
+        <label>Enter your Email:</label>
+        </div>
+        <br>
+        <div class = "login-input">
+        <input type="text" id="email" name="email">
+        <br>
+        <button (click)="onLogin()">Login</button>
+        </div>
+        <div class = "register">
+        <div class = "register-label">
+            Don't have an account?
+        </div>
+        <button (click)="onRegister()">Register</button>
+    </div>
+    </div>
+</div>
