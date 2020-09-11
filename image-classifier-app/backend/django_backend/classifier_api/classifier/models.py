@@ -1,6 +1,7 @@
 from django.db import models
 from django import forms
 
+
 class User(models.Model):
     name = models.CharField(max_length=200, default="name is null")
     email = models.CharField(max_length=200, default="email is null")

@@ -42,7 +42,11 @@ class Images(generics.ListCreateAPIView):
 def register(request):
     message = dict()
     if request.method == 'POST':
-        user_data = JSONParser().parse(request)
+        user_data = {
+            'name': request.POST['name'],
+            'email': request.POST['email'],
+            'password': request.POST['password'],
+        }
         if(not user_data['name'] or not user_data['email'] or not user_data['password']):
             message['message'] = 'missing fields'
             return JsonResponse(message, status=status.HTTP_400_BAD_REQUEST)
@@ -60,12 +64,11 @@ def register(request):
 def login(request):
     message = dict()
     if request.method == 'POST':
-        user_data = JSONParser().parse(request)
-        user_email = user_data['email']
-        user_password = user_data['password']
+        user_email = request.POST['email'],
+        user_password = request.POST['password'],
         if(user_email and user_password):
-            user = User.objects.get(email=user_email)
-            if(user_password == user.password):
+            user = User.objects.get(email=user_email[0])
+            if(user_password[0] == user.password):
                 message['message'] = 'login successful'
                 return JsonResponse(message, status=status.HTTP_201_CREATED)
             message['message'] = 'incorrect password'
