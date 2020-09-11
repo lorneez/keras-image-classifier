@@ -46,13 +46,13 @@ export class HomeComponent implements OnInit {
 
     onUpload(){
       const fd = new FormData();
-      fd.append('image',this.selectedFile,this.selectedFile.name);
-      this.http.post<any>("http://localhost:8080/", fd).subscribe(
+      fd.append('file',this.selectedFile,this.selectedFile.name);
+      this.http.post<any>("http://localhost:8000/api/model/predict", fd).subscribe(
         (data) => {
-          this.predictedProbability = data.prob1;
-          this.predictedLabel = data.class1;
+          this.predictedProbability = data.predictions.prob1;
+          this.predictedLabel = data.predictions.class1;
           },
-        err =>  alert("ERROR: " + err.message)
+        err =>  alert("ERROR: " + JSON.stringify(err))
       );
   }
 }

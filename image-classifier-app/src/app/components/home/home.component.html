@@ -1,12 +1,12 @@
 <div class = Container>
     <div class = "title">
-        Is Your Pet a Dog or Cat?
+        Predict your image!
     </div>
     <div class = "Action-container">
     <div class = "Instructions">
-        Please choose an image from your computer to upload
+        Please choose an image from the following list from your computer to upload: airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
     </div>
-    <div class = "choose-file">
+      <div class = "choose-file">
     <input type="file" accept="image/*" (change)="onFileSelected($event)">
     </div>
     <img class = "image" [src]="url" alt="uploaded-image">

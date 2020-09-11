@@ -23,7 +23,7 @@ export class LandingComponent implements OnInit {
   onLogin(){
     const email = <HTMLInputElement>document.getElementById("email").value;
     alert(email)
-    this.http.post<any>("http://localhost:8000/",email)
+    this.http.post<any>("http://localhost:8000/api/users/login",email)
     .subscribe((
       data) => {
         this.valid = data.valid;
