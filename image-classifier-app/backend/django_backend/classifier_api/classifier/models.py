@@ -1,4 +1,5 @@
 from django.db import models
+from django import forms
 
 class User(models.Model):
     name = models.CharField(max_length=200, default="name is null")
@@ -7,4 +8,5 @@ class User(models.Model):
     def __str__(self):
         return self.name
 
-
+class Image(models.Model):
+    file = models.FileField(upload_to='uploads/')
