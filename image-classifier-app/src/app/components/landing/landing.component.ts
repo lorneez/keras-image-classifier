@@ -1,29 +1,30 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-
+import {Router} from '@angular/router'
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.scss']
 })
 export class LandingComponent implements OnInit {
-  router: any;
   valid: string;
 
-  constructor(private http: HttpClient) { }
+  constructor(private route: Router, private http: HttpClient) { }
 
   ngOnInit(): void {
   }
 
   onRegister(){
     alert("register")
-    this.router.navigateURL(['/register'])
+    this.route.navigate(['/register'])
   }
 
   onLogin(){
-    const email = <HTMLInputElement>document.getElementById("email").value;
+    const email = (<HTMLInputElement>document.getElementById("email")).value;
+    const password = (<HTMLInputElement>document.getElementById("password")).value;
+    const data = {'email':email, 'password':password};
     alert(email)
-    this.http.post<any>("http://localhost:8000/api/users/login",email)
+    this.http.post<any>("http://localhost:8000/api/users/login",data)
     .subscribe((
       data) => {
         this.valid = data.valid;
@@ -31,7 +32,7 @@ export class LandingComponent implements OnInit {
       err => alert("ERROR:"+ err.message)
     );
     if(this.valid=="true"){
-      this.router.navigateURL(['/home'])
+      this.route.navigate(['/home'])
     }
   }
 

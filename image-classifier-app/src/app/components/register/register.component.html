@@ -1,14 +1,22 @@
 <div class="Container">
-    <div class = "title">Register Your Email</div>
-    <div class = "login-container">
+    <div class = "title">Register</div>
+    <div class = "register-container">
         <div class = "enter">
-        <label>Enter your Email:</label>
+        <label>Enter Your Registration Credentials:</label>
         </div>
         <br>
         <div class = "register-input">
+        <div>Username</div>
+        <input type="text" id="username" name="username">
+        <br>
+        <div>Email</div>
         <input type="text" id="email" name="email">
         <br>
-        <button (click)="onRegisterSubmit()">Login</button>
-    </div>
+        <div>Password</div>
+        <input type="text" id="password" name="password">
+        <br>
+        
+        <button (click)="onRegisterSubmit()">Register</button>
+        </div>
     </div>
 </div>
