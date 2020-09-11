@@ -109,5 +109,5 @@ def saveAndResize(file):
     my_image = plt.imread(os.path.join('uploads', file))
     my_image_re = resize(my_image, (32, 32, 3))
     my_image_re = my_image_re.astype('float32')
-    my_image_re = my_image_re / 255
+    # my_image_re = my_image_re / 255
     return my_image_re
